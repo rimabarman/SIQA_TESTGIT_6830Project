@@ -45,8 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="lastModifiedBy">siqaadmin</value>
-    <value name="lastModifiedDate">1754923066232</value>
+    <value name="lastModifiedBy">siqaauto</value>
+    <value name="lastModifiedDate">1754923213482</value>
     <value name="displayName">AlertsCRTandERT</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -74,17 +74,20 @@
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <value name="nodePathForDebug">0</value>
       </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="name">TRY</value>
+        <value name="itemType">CONTROLS</value>
+      </record>
+      <null name="/1/0"/>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
+      </record>
     </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
-    </record>
-    <value name="createdDate">1754923066232</value>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
-  <value name="auditoption">0</value>
+  <value name="auditoption">2</value>
   <null name="auditfields_input"/>
   <null name="auditfields_output"/>
   <record name="auditsettings" javaclass="com.wm.util.Values">
